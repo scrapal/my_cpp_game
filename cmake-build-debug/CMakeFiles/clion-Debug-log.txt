@@ -1,0 +1,13 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/maq/CLionProjects/my_cpp_game -B /Users/maq/CLionProjects/my_cpp_game/cmake-build-debug
+CMake Error: The current CMakeCache.txt directory /Users/maq/CLionProjects/my_cpp_game/cmake-build-debug/_deps/sfml-subbuild/CMakeCache.txt is different than the directory /Users/maq/CLionProjects/game_learn/cmake-build-debug/_deps/sfml-subbuild where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent.cmake:1610 (message):
+  CMake step for sfml failed: 1
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent.cmake:1762:EVAL:2 (__FetchContent_directPopulate)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent.cmake:1762 (cmake_language)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FetchContent.cmake:1976 (FetchContent_Populate)
+  CMakeLists.txt:11 (FetchContent_MakeAvailable)
+
+
+-- Configuring incomplete, errors occurred!
